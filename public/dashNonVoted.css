@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    border: 2.7px solid;
+    padding: 0.1rem;
+    /* background-color: rgb(242, 242, 162); */
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.profile {
+    display: flex;
+    background-color: rgb(242, 242, 162);
+    font-size: 1.2rem;
+}
+.name { 
+    flex-grow: 4;
+}
+.icon {
+    flex-grow: 0.07;
+    background-color: rgb(198, 137, 228);
+    padding: 0.1rem;
+    padding-left: 0.4rem;
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.main {
+    padding: 0.7rem;
+    padding-left: 0px;
+    display: flex;
+    gap: 1.0rem;
+    /* margin-top: 0.5rem; */
+    background-color: rgb(204, 186, 186);
+}
+
+
+span {
+     font-family: 'Poppins', sans-serif;         
+    }
+
+button {
+    padding: 0.7rem;
+    background-color: rgb(205, 166, 199);
+    width: 10rem;
+     border-radius: 10px;   
+}
+
+button:hover{
+    background-color: beige;
+}
+
+#closeBtn {
+    width: 5rem;
+    border-radius: 2px;
+    padding: 0.2rem ;
+    background-color: rgb(195, 112, 112); 
+}
+
+span {
+    cursor: pointer;
+    height: 1.5rem;
+}
+ 
+ #votes{
+    padding: 0.8rem;
+    background-color: aqua;
+    border-radius: 1rem;
+} 
+
+ 
+#unvote {
+   padding: 0.8rem;
+    margin-left: 0rem;
+    background-color: aquamarine;
+    border-radius: 1rem;
+}
+
+#count {
+    height: 2.7rem;
+    width:2rem;
+    font-size: xx-large;
+    border: 3.6px solid rgb(235, 53, 147);
+    text-align: center;
+
+}
+ 
+
+.subBtn {
+    padding: 0.3rem;
+    width: 5.3rem;
+   margin-top: 3.5rem;
+   margin-left: 2.7rem; 
+   background-color:rgb(227, 168, 49);
+}
+
+.subBtn:hover {
+  background-color: rgb(72, 223, 56);
+}
+
+

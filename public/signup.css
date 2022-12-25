@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+nav {
+    position: fixed;
+    top: 0;
+    color: rgb(235, 54, 54) ;
+    font-size: xx-large;
+}
+
+
+h3 {
+    font-family: 'Nerko One', cursive;
+}
+
+
+
+body {
+    height: 95vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://manofmany.com/wp-content/uploads/2021/04/Top-15-Best-Sports-Cars-Power-Luxury-and-Design.jpeg");   
+    background-repeat: no-repeat ;
+    background-size: 100vw 100vh
+}
+
+form {
+    background-color: rgb(255, 255, 255,0.6);
+    padding-bottom: 1rem;
+}
+
+.main {
+    padding: 1rem;
+   width: 15rem;
+}
+
+
+div {
+   display: flex;
+   flex-direction: column;
+   gap: 0.3rem;
+   padding: 0rem;   
+   font-weight: 200;
+   font-family: 'Poppins', sans-serif;
+}
+
+button {
+    margin-top: 0.4rem;    
+}
+
+button:hover {
+    background-color: rgb(235, 240, 163);
+}
+
+#sub {       
+    width: 5rem;
+    margin-left: 3.7rem;
+}
+
+#res {    
+    width: 5rem;
+    margin-left: 0.7rem;
+}

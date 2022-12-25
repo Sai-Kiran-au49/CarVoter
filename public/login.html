@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CarVoter Login Page</title>
+    <link rel="stylesheet" href="./login.css" />
+    <script src="./login.js" defer></script>
+  </head>
+  <body>
+    <form>
+      <div class="main">
+          <h1>CarVoter Login Page</h1>
+        <div>
+          <h3>Please fill in your credentials to login.</h3>
+          <label> Email</label>
+          <input type="email" name="email" required="true" minlength="6" />
+        </div>
+        <div>
+          <label> Password </label>
+          <input type="password" name="password"  required="true" minlength="6"/>
+        </div>
+        <div>
+          <p class="hide"> Invalid credentials, please try again </p>
+        </div>
+      </div>
+
+      <button type="submit" id="login">Login</button>
+      <button type="reset" id="reset">Reset</button>
+    </form>
+  </body>
+</html>

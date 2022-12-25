@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="./signup.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <h3> Welcome to <br> Car Voter!! </h3>
+    </nav>
+    <form>
+    <div class="main">     
+      <div>
+        <label> Username </label>
+        <input type="text" name="name" minlength="6"/>
+      </div>
+      <div>
+        <label> Email </label>
+        <input type="email" name="email"/>
+      </div>
+      <div>
+        <label> Password </label>
+        <input type="password" name="password" minlength="6" maxlength="10" />
+      </div>
+      <div>
+        <label> Phone </label>
+        <input type="number" name="phone" maxlength="10" />
+      </div>
+    </div>      
+    <button type="submit" id="sub">SignUp</button>  
+    <button type="reset" id="res">Reset</button>  
+</form>
+  </body>
+</html>

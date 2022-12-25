@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/profile.js" defer></script>
+    <link rel="stylesheet" href="/profile.css" />
+    <script
+      src="https://kit.fontawesome.com/80fbf464c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <a href="/dashboard/voted">
+        <i class="fa-solid fa-arrow-left"></i> <b> Back </b>
+      </a>
+      <h3>Please Update your details</h3>
+      <div>
+        <label> Username : </label>
+        <div class="user">
+          <label id="userLabel"> Kiran </label>
+          <input class="hide" id="userInput" type="text" value="Kiran" />
+          <button id="userEdit">Edit</button>
+          <button class="hide" id="userCancel">Cancel</button>
+          <button class="hide" id="updateBtn">Update</button>
+        </div>
+      </div>
+
+      <br />
+
+      <div>
+        <label> Email : </label>
+        <div class="email">
+          <label id="emailLabel"> 97kiran@gmail.com </label>
+          <input
+            class="hide"
+            id="emailInput"
+            type="email"
+            value="97kiran@gmail"
+          />
+          <button id="emailEdit">Edit</button>
+          <button class="hide" id="emailCancel">Cancel</button>
+          <button class="hide" id="emailUpdateBtn">Update</button>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="phone">
+        <label> Phone :</label>
+        <div>
+          <label id="phoneLabel"> 8686484345 </label>
+          <input class="hide" id="phoneInput" type="text" value="8686484345" />
+          <button id="phoneEdit">Edit</button>
+          <button class="hide" id="phoneCancel">Cancel</button>
+          <button class="hide" id="phoneUpdateBtn">Update</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
