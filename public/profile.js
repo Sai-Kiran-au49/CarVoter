@@ -5,9 +5,10 @@ async function runDefault(){
   if(userinfo.status==400){
     location.replace('/login')
   } else {
-    userLable.innerText = userData.name 
-    emailLabel.innerText = userData.email
-    phoneLable.innerText = userData.phone  
+    console.log(userData);
+    userInputEle.value = userData.name 
+    emailInputEle.value = userData.email
+    phoneInputEle.value = userData.phone  
   } 
   }
   runDefault();

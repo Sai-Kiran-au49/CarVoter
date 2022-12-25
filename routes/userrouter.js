@@ -13,7 +13,7 @@ userRouter.use(authMiddleware);
 
 
 userRouter.get("/", async (req, res) => {
-  const userData = await userModel.findOne({ email: req.email } ,{email:0, password:0,__v:0,phone:0,_id:0});
+  const userData = await userModel.findOne({ email: req.email } ,{password:0,__v:0,_id:0});
   res.json(userData);
 });
 

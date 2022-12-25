@@ -11,6 +11,10 @@ app.use(express.static('public'))
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
 
+app.get('/', (req,res)=>{
+  res.sendFile(`${__dirname}/public/dummySignUp.html`)
+})
+
 const adminRouter = require('./routes/adminrouter')
 app.use('/admin', adminRouter)
 
@@ -43,6 +47,13 @@ app.get('/logout', (req,res)=>{
   res.sendFile(`${__dirname}/public/logout.html`)
 })
 
+app.get('/pages/terms', (req,res)=>{
+  res.sendFile(`${__dirname}/public/terms.html`)
+})
+
+app.get('/pages/policy', (req,res)=>{
+  res.sendFile(`${__dirname}/public/privacy.html`)
+})
 
 const authRouter = require("./routes/authrouter");
 const { urlencoded } = require("express");
