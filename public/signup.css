@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 nav {
     position: fixed;
     top: 0;
-    color: rgb(235, 54, 54) ;
     font-size: xx-large;
 }
 
-
 h3 {
-    font-family: 'Nerko One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(37, 36, 37) ;
+    padding: 1rem;
+    font-size: larger;
+    text-shadow: 2px 2px 5px red;
+    background-image: linear-gradient(to right, rgb(255, 210, 218,0.5) , rgb(230, 162, 162,0.5));
+    border-radius: 5px;
 }
-
-
 
 body {
     height: 95vh;
@@ -28,13 +32,17 @@ body {
 form {
     background-color: rgb(255, 255, 255,0.6);
     padding-bottom: 1rem;
+    padding: 0.5rem;
+}
+input:focus {
+  /* background-color: rgb(177, 227, 233); */
+outline-color: rgb(171, 179, 7);
 }
 
 .main {
     padding: 1rem;
    width: 15rem;
 }
-
 
 div {
    display: flex;
@@ -46,9 +54,8 @@ div {
 }
 
 button {
-    margin-top: 0.4rem;    
+    font-family: 'Poppins', sans-serif;
 }
-
 button:hover {
     background-color: rgb(235, 240, 163);
 }
@@ -62,3 +69,18 @@ button:hover {
     width: 5rem;
     margin-left: 0.7rem;
 }
+
+.hide {
+    display: none;
+}
+
+p {
+  padding: 0.2rem;
+  margin: 0.1rem 0;
+  font-size: small;
+  color: red;
+  font-weight: bold;
+  background-color: beige;
+}
+
+

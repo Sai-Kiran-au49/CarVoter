@@ -1,12 +1,20 @@
 const carModel = require('../models/carModels')
 
-const {Router} = require('express')
+const {Router, json, urlencoded} = require('express')
 
 const adminRouter = Router();
 
 adminRouter.post('/cars', async (req,res)=>{
-   const adminCars = await carModel.create(req.body)
-   res.json(adminCars)
+   console.log("reqbody:", req.body);
+   try{
+      const adminCars = await carModel.create(req.body)
+      res.json(adminCars)
+   }catch(e){
+      // console.log(Object.keys(e))
+      
+      console.log("errors");
+      res.status(400).send('bad')
+   }
 })
 
 // adminRouter.put('/cars/:name/:vote', async(req,res)=>{
